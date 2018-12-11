@@ -4,14 +4,13 @@ This is just a simple module with [Jakob Eriksen's function](http://codepen.io/j
 
 ## Usage
 
-Just import the file and use the function, no dependencies.
+Just import the file and use the function, no dependencies, SASS Version.
 
 ```scss
-@import "sass-svg-uri/svg-uri";
+@import "sass-svg-uri/svg-uri"
 
-.icon {
-    background-image: svg-uri('<svg xmlns="http://www.w3.org/2000/svg"> ... </svg>');
-}
+.icon
+    background-image: svg-uri('<svg xmlns="http://www.w3.org/2000/svg"> ... </svg>')
 ```
 
 Would output:
